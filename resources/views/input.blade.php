@@ -44,9 +44,16 @@
                                 <input class="form-control" type="text" name="nrp" value="{{ old('nrp') }}">
                             </div>
                             <div class="form-group">
-                                <label for="departemen">Departemen</label>
-                                <input class="form-control" type="text" name="departemen"
-                                    value="{{ old('departemen') }}">
+                                <label for="departemen">Departemen</label><br>
+                                {{-- <input class="form-control" type="text" name="departemen"
+                                    value="{{ old('departemen') }}">  --}}
+                                <select name="departemen" id="departemen" value="{{ old('departemen') }}"">
+                                    <option value="Teknik Informatika">Teknik Informatika</option>
+                                    <option value="Sistem Informasi">Sistem Informasi</option>
+                                    <option value="Teknologi Informasi">Teknologi Informasi</option>
+                                    <option value="Teknik Elektro">Teknik Elektro</option>
+                                    <option value="Teknik Biomedik">Teknik Biomedik</option>
+                                </select>
                             </div>
                             <div class="form-group">
                                 <label for="kota">Kota</label>
@@ -61,7 +68,8 @@
                                 <input type="file" class="form-control-file" id="gambar" name="gambar">
                             </div>
                             <div class="form-group">
-                                <input class="btn btn-primary" type="submit" value="Submit" style="background-color:blue; width:100%">
+                                <input class="btn btn-primary" type="submit" value="Submit"
+                                    style="background-color:blue; width:100%">
                             </div>
                         </form>
 
