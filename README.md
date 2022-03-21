@@ -1,4 +1,9 @@
-<h1>Link Form yang bisa diakses: https://form-pbkk.000webhostapp.com/</h1>
+# Tugas 1: Membuat Form Validasi 
+<h3>Link Form yang bisa diakses: https://form-pbkk.000webhostapp.com/</h3>
+<h3>Link Demo Presentasi: Video link https://youtu.be/LRMxtX-bflM</h3>
+
+# Tugas 2: Menambahkan Database Seeder, Faker, Factory
+<h3>Link Demo Presentasi: https://www.youtube.com/watch?v=qhIJzA_QfFE</h3>
 
 
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
